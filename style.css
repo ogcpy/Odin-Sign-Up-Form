@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  * {
+    margin: 0;
+    font-family: Skranji;
+  }
+  
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  
+  input, button, textarea, select {
+    font: inherit;
+  }
+  
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  
+  p {
+    text-wrap: pretty;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+  }
+  
+  #root, #__next {
+    isolation: isolate;
+  }
+
+  body {
+    background-image: url(/images/pexels-phil-kallahar-983200.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .banner {
+    background-color: rgb(0, 0, 0);
+    padding: 35px;
+    opacity: 50%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 100%;
+    margin-top: -300px;
+  }
+
+  .banner #logo {
+    height: 90px;
+  }
+
+  .banner h1 {
+    font-size: 60px;
+    color: #fff;
+  }
+
+  .form {
+    height: 100vh;
+    background-color:rgb(238, 238, 238);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form h2 {
+    
+  }
