@@ -3,53 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign Up!</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
+    
+    <div class="bg-container">
+        
         <div class="banner">
-            <img src="/images/odin-lined.png" alt="" id="logo">
+            
+            <img src="images/odin-lined.png" alt="">
             <h1>Odin</h1>
-        </div>
-
         
-        
-        <div class="form">
-
-            <h2>This is not a real online service! You know you need something like this 
-                in your life to help you realize your deepest dreams.
-                Sign up now to get started!</h2>
-
-            <h3>You know you want to</h3>
-
-            <form action="" method="post">
-                <h3>Let's do this!</h3>
-                <label for="first_name">First Name:</label>
-                <input type="text" id="first_name" required placeholder="Elon">
-
-                <label for="last_name">Last Name:</label>
-                <input type="text" id="last_name" required placeholder="Musk">
-
-                <label for="phone_number">Phone Number:</label>
-                <input type="tel" name="phone_number" id="phone_number" required placeholder="+01 0123 45 6789">
-
-                <label for="email">Email:</label>
-                <input type="email" name="email" id="email" required placeholder="Elon@x.com">
-
-                <label for="passwd">Password</label>
-                <input type="password" name="passwd" id="passwd" required placeholder="Qwerty123!">
-
-                <label for="passwd">Confirm Password</label>
-                <input type="password" name="passwd" id="passwd" required placeholder="Qwerty123!">
-            </form>
-
-            <button type="submit">Create Account</button>
-
-            <p>Already have account? <span> <a href="http://">Log in </a></span></p>
         </div>
-
     </div>
 
+    <div class="form">
+        <div class="header">
+            <h2>This is not a real online service! You know you need something like this in your life to help you realize youre deepest dreams.</h2>
+            <h2>Sign up <i>now</i> to get started</h2>
+            <br>
+            <h2>You <i>know</i> you want to.</h2>
+            <br>
+        </div>
+
+        <form action="submit">
+            <h2>Let's do this!</h2>
+            <br>
+            <div class="form-container">
+                
+                <div class="row">
+
+                    <div class="holder">
+                        <label for="f-name">FIRST NAME</label>
+                        <input type="text" id="f-name" required placeholder="John">
+                    </div>
+
+                    <div class="holder">
+                        <label for="l-name">LAST NAME</label>
+                        <input type="text" id="l-name" required placeholder="Smith">
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="holder">
+                        <label for="number">PHONE NUMBER</label>
+                        <input type="tel" name="number" id="number" required placeholder="+01 2345 67890">
+                    </div>
+
+                    <div class="holder">
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email" required placeholder="john@smith.co.uk">
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="holder">
+                        <label for="passwd">PASSWORD</label>
+                        <input type="password" name="passwd" id="passwd" required placeholder="Qwerty123!">
+                    </div>
+
+                    <div class="holder">
+                        <label for="conf-passwd">CONFIRM PASSWORD</label>
+                        <input type="password" name="conf-passwd" id="conf-passwd" required placeholder="Qwerty123!">
+                    </div>
+
+                </div>
+
+            </div>
+        </form>
+
+        <button type="submit">Create Account</button>
+        <p>Already have an account. <a href="#">Log in</a></p>
+    
+    </div>
+    
 </body>
 </html>
