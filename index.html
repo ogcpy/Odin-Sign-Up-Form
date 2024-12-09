@@ -64,23 +64,25 @@
 
                     <div class="holder">
                         <label for="passwd">PASSWORD</label>
-                        <input type="password" name="passwd" id="passwd" required placeholder="Qwerty123!">
+                        <input type="password" name="passwd" id="passwd" required placeholder="Qwerty123!" minlength="8">
+                        <span id="passwd-match-message"></span>
                     </div>
 
                     <div class="holder">
                         <label for="conf-passwd">CONFIRM PASSWORD</label>
-                        <input type="password" name="conf-passwd" id="conf-passwd" required placeholder="Qwerty123!">
+                        <input type="password" name="conf-passwd" id="conf-passwd" required placeholder="Qwerty123!" minlength="8">
                     </div>
-
+                    
                 </div>
 
             </div>
         </form>
 
         <button type="submit">Create Account</button>
+        
         <p>Already have an account. <a href="#">Log in</a></p>
     
     </div>
-    
+    <script src="/script.js"></script>
 </body>
 </html>
